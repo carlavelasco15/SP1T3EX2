@@ -29,6 +29,7 @@
 
      echo "<h5>EXERCICI 2</h5>";
      function comptarFins10() {
+         echo "<p><b>Comptar fins a 10</b></p>";
          for ($i=0; $i <= 10; $i+=2) { 
              echo "<p>$i</p>";
          }
@@ -36,6 +37,21 @@
      comptarFins10();
      echo "<br>";
      echo "<br>";
+
+
+    /* EXERCICI 3 */
+
+    echo "<h5>EXERCICI 3</h5>";
+    function comptarParametritzat($num) {
+        echo "<p><b>Comptar fins a $num</b></p>";
+        for ($i=0; $i <= $num; $i+=2) { 
+            echo "<p>$i</p>";
+        }
+    }
+    comptarParametritzat(16);
+    echo "<br>";
+    echo "<br>";
+     
 
 
 
