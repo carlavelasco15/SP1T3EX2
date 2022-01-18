@@ -25,6 +25,18 @@
     echo "<br>";
     echo "<br>";
 
+     /* EXERCICI 2 */
+
+     echo "<h5>EXERCICI 2</h5>";
+     function comptarFins10() {
+         for ($i=0; $i <= 10; $i+=2) { 
+             echo "<p>$i</p>";
+         }
+     }
+     comptarFins10();
+     echo "<br>";
+     echo "<br>";
+
 
 
    
