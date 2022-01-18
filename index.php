@@ -92,6 +92,26 @@
     grauEstudiant(120);
     echo "<br>";
     echo "<br>";
+
+
+     /* EXERCICI 6 */
+
+    echo "<h5>EXERCICI 6</h5>";
+
+    function isBitten() {
+        $num = rand(0,1); 
+        if($num == 0) { return false; }
+        return true;
+    }
+     
+    if(isBitten()) {
+        echo "<p>El Charlie m'ha mossegat el dit!</p>";
+    } else {
+        echo "<p>El Charlie no m'ha mossegat el dit.</p>";
+    }
+    echo "<br>";
+    echo "<br>";
+
      
 
 
