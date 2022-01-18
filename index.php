@@ -51,6 +51,20 @@
     comptarParametritzat(16);
     echo "<br>";
     echo "<br>";
+
+
+    /* EXERCICI 4 */
+
+    echo "<h5>EXERCICI 4</h5>";
+    function comptarParametritzatPerDefecte($num = 10) {
+        echo "<p><b>Comptar fins a $num</b></p>";
+        for ($i=0; $i <= $num; $i+=2) { 
+            echo "<p>$i</p>";
+        }
+    }
+    comptarParametritzatPerDefecte();
+    echo "<br>";
+    echo "<br>";
      
 
 
