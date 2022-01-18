@@ -65,6 +65,33 @@
     comptarParametritzatPerDefecte();
     echo "<br>";
     echo "<br>";
+
+
+    /* EXERCICI 5 */
+
+    echo "<h5>EXERCICI 5</h5>";
+    function grauEstudiant($nota = 0) {
+       if($nota < 33) {
+           echo "<p>La teva nota és de $nota. Has suspès l'assignatura.</p>";
+       } else if($nota <= 44) {
+           echo "<p>La teva nota és de $nota. El teu grau és de Tercera Divisió.</p>";
+       } else if($nota <= 59) {
+           echo "<p>La teva nota és de $nota. El teu grau és de Segona Divisió.</p>";
+       } else if ($nota > 59) {
+            echo "<p>La teva nota és de $nota. El teu grau és de Primera Divisió.</p>";
+       }
+    }
+    grauEstudiant(32);
+    grauEstudiant();
+    grauEstudiant(-5);
+    grauEstudiant(35);
+    grauEstudiant(44);
+    grauEstudiant(45);
+    grauEstudiant(59);
+    grauEstudiant(60);
+    grauEstudiant(120);
+    echo "<br>";
+    echo "<br>";
      
 
 
